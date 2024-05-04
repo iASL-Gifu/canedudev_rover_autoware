@@ -117,6 +117,10 @@ repositories:
     type: git
     url: https://github.com/iASL-Gifu/canedudev_rover_vehicle_launch 
     version: main
+  vehicle/external/canedudev_rover_vehicle_interface:
+    type: git
+    url: https://github.com/iASL-Gifu/canedudev_rover_vehicle_interface
+    version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
