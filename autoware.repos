@@ -74,9 +74,9 @@ repositories:
     url: https://github.com/tier4/glog.git
     version: v0.6.0_t4-ros
   # launcher
-  launcher/autoware_launch:
+  launcher/canedudev_rover_autoware_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
+    url: https://github.com/iASL-Gifu/canedudev_rover_autoware_launch
     version: main
   # sensor_component
   senror_component/external/xsens:
