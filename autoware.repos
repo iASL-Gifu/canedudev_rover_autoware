@@ -79,7 +79,7 @@ repositories:
     url: https://github.com/iASL-Gifu/canedudev_rover_autoware_launch
     version: main
   # sensor_component
-  senror_component/external/xsens:
+  sensor_component/external/xsens:
     type: git
     url: https://github.com/gmsanchez/bluespace_ai_xsens_ros_mti_driver
     version: ros2_0_humble
