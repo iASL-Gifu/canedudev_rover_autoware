@@ -34,6 +34,7 @@ You have two options for installing Autoware:
 
 [Docker Installation Documentation](https://autowarefoundation.github.io/autoware-documentation/main/installation/autoware/docker-installation/)
 
+(Source Installation)  
 Step 1: Clone our repository:
 ```bash
 # Clone the repository
