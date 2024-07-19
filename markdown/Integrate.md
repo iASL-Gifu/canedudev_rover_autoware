@@ -30,7 +30,7 @@ You have two options for installing Autoware:
 [Docker Installation Documentation](https://autowarefoundation.github.io/autoware-documentation/main/installation/autoware/docker-installation/)
 
 (Source Installation)  
-setup instructions provided below are specifically for source installation. We have used a Velodyne VLP-32 LiDAR and an Xsens IMU in our setup.  
+setup instructions provided below are specifically for source installation. We have used a Kvaser USBcan Pro 2xHS v2, Velodyne VLP-32 LiDAR and an Xsens IMU in our setup.  
 
 Step 1: Clone our repository:
 ```bash
