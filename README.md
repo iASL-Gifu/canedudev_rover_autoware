@@ -18,6 +18,7 @@ The Demo Rover utilizes CAN (Controller Area Network) communication. This enable
 
 The Demo Rover can reach speeds of up to 40 km/h. This high performance allows for extensive testing of high-speed driving and obstacle avoidance in large open areas.    
 
+ If you need more detailed information, please refer to the page linked below.
 [Demo Rover web page](https://www.canedudev.com/product/demo-rover/)
 
 # Integrating Demo Rover and Autoware
