@@ -27,4 +27,4 @@ The Demo Rover can reach speeds of up to 40 km/h. This high performance allows f
 [Demo Rover web page](https://www.canedudev.com/product/demo-rover/)
 
 # Integrating Demo Rover and Autoware
-[Integrating Demo Rover and Autoware](./markdown/Integrate.md)
+[Integrating Demo Rover and Autoware](./docs/Integrate.md)
