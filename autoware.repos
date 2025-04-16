@@ -119,6 +119,10 @@ repositories:
     type: git
     url: https://github.com/iASL-Gifu/canedudev_rover_vehicle_launch.git
     version: release/2025.02
+  vehicle/external/canedudev_rover_vehicle_interface:
+    type: git
+    url: https://github.com/iASL-Gifu/canedudev_rover_vehicle_interface
+    version: release/2025.02
   #vehicle/awsim_labs_vehicle_launch:
   #  type: git
   #  url: https://github.com/autowarefoundation/awsim_labs_vehicle_launch.git
