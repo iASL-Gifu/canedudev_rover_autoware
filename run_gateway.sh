@@ -1,12 +1,21 @@
 #!/bin/bash
 
+# ----------- Source ROS2 Workspace -----------
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${SCRIPT_DIR}/install/setup.bash"
+
 # ------------------------
 # Start CAN interface
 # ------------------------
 
-echo "[INFO] Setting up CAN interface: can0"
-sudo ip link set can0 type can bitrate 125000 restart-ms 100
-sudo ip link set up can0
+if ip link show can0 2>/dev/null | grep -q "state UP"; then
+  echo "[INFO] CAN interface can0 already up. Skipping setup."
+else
+  echo "[INFO] Setting up CAN interface: can0"
+  sudo ip link set can0 type can bitrate 125000 restart-ms 100
+  sudo ip link set up can0
+fi
+
 
 # ------------------------
 # Docker container settings
@@ -48,10 +57,7 @@ else
 fi
 
 # ------------------------
-# Wait loop
+# Battery monitoring
 # ------------------------
-
-echo "[INFO] Press Ctrl+C to stop and clean up..."
-while true; do
-  sleep 1
-done
+echo "[INFO] Starting battery monitoring"
+ros2 topic echo /vehicle/status/battery_charge

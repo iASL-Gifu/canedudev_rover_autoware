@@ -7,10 +7,14 @@
 # - Launching Autoware (foreground)
 # ========================
 
+# ----------- Source ROS2 Workspace -----------
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${SCRIPT_DIR}/install/setup.bash"
+
 # ----------- Config -----------
 VEHICLE_MODEL="canedudev_rover_vehicle"
 SENSOR_MODEL="canedudev_rover_sensor_kit"
-MAP_PATH="/home/apollo-22/map"
+MAP_PATH="/home/apollo-22/map/gifu_university/7th_floor"
 # ------------------------------
 
 # Function to stop all background jobs on exit
